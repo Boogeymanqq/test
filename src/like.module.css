@@ -1,0 +1,40 @@
+.like {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../src/like.png") center no-repeat;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+
+.active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../src/likeActive.png") center no-repeat;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+
+.button {
+  background: url("./likeActive.png") left 10% bottom 50% no-repeat;
+  width: 157px;
+  padding: 10px 0;
+  /* background: #ffffff; */
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  border-radius: 48px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #3f444a;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.btnText {
+  margin-left: 30px;
+}
